@@ -21,4 +21,4 @@ Start by putting stuff in /app
 
 list of pending changes:
 
-- add skeleton CSS examples
+- maybe add a makefile to ease stuff?
