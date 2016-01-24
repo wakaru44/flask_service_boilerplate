@@ -1,6 +1,8 @@
 
 # Flask Minimalistic Boilerplate
 
+Flask, Jinja2, Skeleton CSS, jQuery 2.
+
 Minimal, with just a few add-ons: 
 
     flask-mongoengine
