@@ -1,7 +1,6 @@
 
 from flask import Flask, url_for, render_template, request, \
     redirect, abort, session, g, flash, Markup
-import helpers
 from myapp import app
 
 @app.route('/event', defaults={"path": ""})
@@ -9,21 +8,9 @@ from myapp import app
 def event_listener(whatever):
     app.logger.info(whatever)
     """
-    The format of the URL should be something like 
-
-    - SessionID: GUID (or a string for the purpose of this demo)
-    - Timestamp: Int. The unix timestamp in the client
-    - Client Version: String. Something to identify the version/kind/variation of the client
-    - Item: String. The thing that the user has touched. 
-
-    In this order, and validating a bit
+    a sample method of a catch-all path
     """
-    (sesid, stamp, client, item) = parse_request(whatever)
-    assert sessionid_check(sesid) is not False
-    assert stamp_check(stamp) is not False
-    assert client_check(client) is not False
-    assert item_check(item) is not False
-    return "{0} registered".format(whatever)
+    return "You went to {0}".format(whatever)
 
 
 @app.route('/')

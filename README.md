@@ -20,5 +20,3 @@ Start by putting stuff in /app
 list of pending changes:
 
 - add skeleton CSS examples
-- clean the main a bit
-- delete helpers debris
