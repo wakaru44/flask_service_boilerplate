@@ -1,4 +1,6 @@
 
+# -*- coding: utf-8 -*-
+
 from myapp import app
 
 if __name__ == '__main__':
