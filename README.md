@@ -1,6 +1,9 @@
 
 # Flask Minimalistic Boilerplate
 
+![Build Status](https://img.shields.io/maintenance/yes/2017.svg)
+
+
 Flask, Jinja2, Skeleton CSS, jQuery 2.
 
 Minimal, with just a few add-ons: 
